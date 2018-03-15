@@ -13,7 +13,7 @@ Place your badges and a short description about the plugin.
 ## Installation
 
 - Download latest release
-- Extract the zip file in shopware_folder/custom/plugins/
+- Extract the zip file in `shopware_folder/custom/plugins/`
 
 
 ## Contributing
