@@ -1,0 +1,42 @@
+{
+    "name": "frosh/REPONAMECOMPOSER",
+    "description": "REPONAME",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "keywords": [
+    ],
+    "autoload": {
+      "psr-4": {
+        "Frosh\\REPOSHORT\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "FriendsOfShopware",
+        "homepage": "https://friendsofshopware.de"
+      }
+    ],
+    "extra": {
+      "shopware-plugin-class": "Frosh\\REPOSHORT\\REPONAME",
+      "plugin-icon": "src/Resources/config/plugin.png",
+      "label": {
+        "de-DE": "REPONAME",
+        "en-GB": "REPONAME"
+      },
+      "description": {
+        "de-DE": "Example Plugin Description",
+        "en-GB": "Example Plugin Description"
+      },
+      "manufacturerLink": {
+        "de-DE": "https://github.com/FriendsOfShopware/REPONAME",
+        "en-GB": "https://github.com/FriendsOfShopware/REPONAME"
+      },
+      "supportLink": {
+        "de-DE": "https://github.com/FriendsOfShopware/REPONAME/issues",
+        "en-GB": "https://github.com/FriendsOfShopware/REPONAME/issues"
+      }
+    },
+    "require": {
+      "shopware/core": "~6.4.0"
+    }
+  }
