@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Frosh\REPOSHORT;
+namespace EXT-SHORT\EXT-NAME;
 
 use Shopware\Core\Framework\Plugin;
 
-class REPONAME extends Plugin
+class REPO-NAME extends Plugin
 {
 }

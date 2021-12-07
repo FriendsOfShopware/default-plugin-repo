@@ -1,13 +1,13 @@
 {
-    "name": "frosh/REPONAMECOMPOSER",
-    "description": "REPONAME",
+    "name": "COMPOSER-SHORT/COMPOSER-NAME",
+    "description": "REPO-NAME",
     "type": "shopware-platform-plugin",
     "license": "MIT",
     "keywords": [
     ],
     "autoload": {
       "psr-4": {
-        "Frosh\\REPOSHORT\\": "src/"
+        "EXT-SHORT\\EXT-NAME\\": "src/"
       }
     },
     "authors": [
@@ -17,23 +17,23 @@
       }
     ],
     "extra": {
-      "shopware-plugin-class": "Frosh\\REPOSHORT\\REPONAME",
+      "shopware-plugin-class": "EXT-SHORT\\EXT-NAME\\REPO-NAME",
       "plugin-icon": "src/Resources/config/plugin.png",
       "label": {
-        "de-DE": "REPONAME",
-        "en-GB": "REPONAME"
+        "de-DE": "REPO-NAME",
+        "en-GB": "REPO-NAME"
       },
       "description": {
-        "de-DE": "Example Plugin Description",
-        "en-GB": "Example Plugin Description"
+        "de-DE": "REPO-NAME",
+        "en-GB": "REPO-NAME"
       },
       "manufacturerLink": {
-        "de-DE": "https://github.com/FriendsOfShopware/REPONAME",
-        "en-GB": "https://github.com/FriendsOfShopware/REPONAME"
+        "de-DE": "https://github.com/FriendsOfShopware/REPO-NAME",
+        "en-GB": "https://github.com/FriendsOfShopware/REPO-NAME"
       },
       "supportLink": {
-        "de-DE": "https://github.com/FriendsOfShopware/REPONAME/issues",
-        "en-GB": "https://github.com/FriendsOfShopware/REPONAME/issues"
+        "de-DE": "https://github.com/FriendsOfShopware/REPO-NAME/issues",
+        "en-GB": "https://github.com/FriendsOfShopware/REPO-NAME/issues"
       }
     },
     "require": {
