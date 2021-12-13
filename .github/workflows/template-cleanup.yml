@@ -22,7 +22,6 @@ jobs:
           export LANG=C
           
           php .github/template-cleanup/clean.php ${GITHUB_REPOSITORY}
-
           
           # Cleanup
           rm -rf \

@@ -28,3 +28,5 @@ function renderFile(string $file)
 renderFile('composer.json');
 renderFile('src/REPONAME.php');
 rename(dirname(__DIR__, 2) . '/src/REPONAME.php', sprintf('src/%s.php', $repoName));
+copy(__DIR__ . '/README.md', dirname(__DIR__, 2) . '/README.md');
+renderFile('/README.md');
