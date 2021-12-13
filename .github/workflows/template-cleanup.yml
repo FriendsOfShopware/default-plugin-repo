@@ -21,7 +21,7 @@ jobs:
           export LC_CTYPE=C
           export LANG=C
           
-          php .github/template-cleanup/clean.php ${GITHUB_REPOSITORY}
+          php .github/template-cleanup/clean.php ${{ github.event.repository.name }}
           
           # Cleanup
           rm -rf \
