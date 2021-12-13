@@ -19,6 +19,3 @@ All you have to do is click the <kbd>Use this template</kbd> button (you must be
 
 After using the template to create your blank project, the [Template Cleanup][file:template_cleanup.yml] workflow will be triggered to override or remove any template-specific configurations, such as the plugin name, current changelog, etc.
 Once this is complete, the project is ready to be cloned to your local environment.
-
-For the last step, you have to manually review the configuration variables described in the [`gradle.properties`][file:gradle.properties] file and *optionally* move sources from the *com.github.username.repository* package to the one that works best for you.
-Then you can get to work implementing your ideas.
